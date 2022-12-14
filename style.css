@@ -1,0 +1,43 @@
+#red {
+    display: inline-block;
+}
+
+#red-square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#red-circle {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 5px solid blue;
+    border-radius: 100%;
+    float: right;
+}
+
+#blue{
+    display: inline-block;
+    float: right;
+}
+
+#blue-square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blue-circle {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 5px solid red;
+    border-radius: 100%;
+}
